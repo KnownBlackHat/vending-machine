@@ -15,6 +15,8 @@ public class ProductDAO {
         try (Connection conn = DatabaseConnection.getConnection();
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(query)) {
+             System.out.println("Retriving");
+             System.out.println("ResultSet: " + rs);
             while (rs.next()) {
                 products.add(new Product(
                     rs.getInt("id"),
@@ -23,6 +25,9 @@ public class ProductDAO {
                     rs.getInt("quantity")
                 ));
             }
+        } catch (SQLException e) {
+            System.err.println("Error retrieving products: " + e.getMessage());
+            throw e; // Re-throw the exception for further handling
         }
         return products;
     }
