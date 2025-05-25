@@ -1,0 +1,5 @@
+com/vending/ui/VendingMachineUI.class
+com/vending/dao/ProductDAO.class
+com/vending/util/DatabaseConnection.class
+com/vending/App.class
+com/vending/model/Product.class

@@ -1,0 +1,5 @@
+/home/knownblackhat/dev/vending-machine/VendingMachine/src/main/java/com/vending/App.java
+/home/knownblackhat/dev/vending-machine/VendingMachine/src/main/java/com/vending/dao/ProductDAO.java
+/home/knownblackhat/dev/vending-machine/VendingMachine/src/main/java/com/vending/db/DatabaseConnection.java
+/home/knownblackhat/dev/vending-machine/VendingMachine/src/main/java/com/vending/model/Product.java
+/home/knownblackhat/dev/vending-machine/VendingMachine/src/main/java/com/vending/ui/VendingMachineUI.java
